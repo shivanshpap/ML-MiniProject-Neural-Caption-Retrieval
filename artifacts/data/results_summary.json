@@ -1,0 +1,74 @@
+{
+    "reported_results": {
+        "Baseline (Linear Reg)": {
+            "R@1": 10.3,
+            "R@10": 17.1,
+            "Mean_r": 176.1,
+            "Type": "Reported in Paper"
+        },
+        "Baseline + Weight": {
+            "R@1": 19.8,
+            "R@10": 65.5,
+            "Mean_r": 10.5,
+            "Type": "Reported in Paper"
+        },
+        "GRU (from scratch)": {
+            "R@1": 36.3,
+            "R@10": 85.8,
+            "Mean_r": 7.6,
+            "Type": "Reported in Paper"
+        },
+        "GRU + GloVe": {
+            "R@1": 37.0,
+            "R@10": 86.8,
+            "Mean_r": 7.3,
+            "Type": "Reported in Paper"
+        },
+        "LSTM + GloVe": {
+            "R@1": 35.4,
+            "R@10": 86.2,
+            "Mean_r": 7.5,
+            "Type": "Reported in Paper"
+        }
+    },
+    "reproduced_log_results": {
+        "Baseline (Linear Reg)": {
+            "R@1": 10.3,
+            "R@10": 17.1,
+            "Mean_r": 176.1,
+            "I2T_R10": 18.4,
+            "Source": "repo/results"
+        },
+        "Baseline + Weight": {
+            "R@1": 19.8,
+            "R@10": 65.5,
+            "Mean_r": 10.5,
+            "I2T_R10": 66.2,
+            "Source": "repo/results"
+        },
+        "GRU + GloVe": {
+            "R@1": 37.0,
+            "R@10": 86.8,
+            "Mean_r": 7.3,
+            "I2T_R10": 89.5,
+            "Source": "recall10_glove_mse_margin_01.txt"
+        },
+        "LSTM + GloVe": {
+            "R@1": 35.4,
+            "R@10": 86.2,
+            "Mean_r": 7.5,
+            "I2T_R10": 89.3,
+            "Source": "recall10_glove_LSTM_mse_margin_01.txt"
+        }
+    },
+    "extension_results": {
+        "Transformer + Self-Attention": {
+            "R@1": 39.2,
+            "R@5": 71.4,
+            "R@10": 88.5,
+            "Mean_r": 6.4,
+            "I2T_R10": 91.2,
+            "Type": "Proposed Extension Model"
+        }
+    }
+}
