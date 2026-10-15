@@ -7,7 +7,7 @@ from reportlab.platypus import (
 )
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 
-PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) 
 
 def generate_pdf():
     pdf_dir = os.path.join(PROJECT_ROOT, 'deliverables', 'writeup')
